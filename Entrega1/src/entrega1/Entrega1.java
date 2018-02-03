@@ -7,8 +7,6 @@ package entrega1;
 
 import static java.lang.Math.abs;
 import static java.lang.Math.pow;
-import java.time.Instant;
-import static java.time.Instant.now;
 import java.util.ArrayList;
 import org.apache.commons.math3.analysis.UnivariateFunction;
 import org.apache.commons.math3.analysis.solvers.BisectionSolver;
