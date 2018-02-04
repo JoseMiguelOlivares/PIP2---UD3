@@ -78,7 +78,7 @@ public class Entrega1 {
                                 signo = '+';
                         }
 
-                        if (i>2)
+                        if (i>=2)
                             System.out.print(" "+signo+" ("+abs(coef.get(i))+")x^"+i);
                         else if (i==1)
                             System.out.print(" "+signo+" ("+abs(coef.get(i))+")x");
