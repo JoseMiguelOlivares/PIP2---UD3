@@ -24,12 +24,12 @@ public class Entrega1 {
     public static void main(String[] args) {
         // TODO code application logic here
         int error = 0;
-        double a = .0;
-        double b = .0;
-        long antes = 0;
-        long despues = 0;
-        int iteraciones = 1000;
-        double raiz = .0;
+        double a;
+        double b;
+        long antes;
+        long despues;
+        int iteraciones;
+        double raiz;
         ArrayList<Double> coef = new ArrayList();
         
         // Si hay menos de 2 argumentos es que viene sin ecuación
@@ -42,7 +42,7 @@ public class Entrega1 {
                  try  
                 {  
                   double d = Double.parseDouble(args[i]); 
-                  if (i >= 2)
+                  if (i >= 3)
                   {
                       coef.add(d);
                   }
@@ -58,6 +58,7 @@ public class Entrega1 {
                 // Obtengo los valores del intervalos inicial
                 a = Double.parseDouble(args[0]);
                 b = Double.parseDouble(args[1]);
+                iteraciones = Integer.parseInt(args[2]);
                 
                 // Pintamos la ecuación
                 System.out.println("");
