@@ -6,11 +6,7 @@
 package entrega3;
 
 import static java.lang.Math.abs;
-import static java.lang.Math.pow;
 import java.util.ArrayList;
-import org.apache.commons.math3.analysis.UnivariateFunction;
-import org.apache.commons.math3.analysis.solvers.BisectionSolver;
-import org.apache.commons.math3.analysis.solvers.UnivariateSolver;
 
 /**
  *
@@ -78,7 +74,7 @@ public class Entrega3 {
                                 signo = '+';
                         }
 
-                        if (i>2)
+                        if (i>=2)
                             System.out.print(" "+signo+" ("+abs(coef.get(i))+")x^"+i);
                         else if (i==1)
                             System.out.print(" "+signo+" ("+abs(coef.get(i))+")x");
