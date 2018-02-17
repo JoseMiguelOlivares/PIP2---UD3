@@ -150,11 +150,11 @@ public class Alg3 {
             p0 = a;
             q0 = fb;
             q1 = fa;
-            System.out.println("P0 = " + p0);
+            //System.out.println("P0 = " + p0);
             for (int i = 2; i < it; i++)
             {
                 p = p0 - (q1/(q0-q1))*(b-p0);
-                System.out.println("P" + i + " = " + p);
+                //System.out.println("P" + i + " = " + p);
                 
                 if (tol > abs(p-p0))
                     return p0;
